@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #38b000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 6px solid #222;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* MENÚ */
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 14px;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+    background-color: #f4f4f4;
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: start;
+    flex: 1;
+}
+
+main section:nth-child(2) {
+    height: 185%;
+}
+
+
+/* SECCIONES */
+section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+section h2,
+section h3 {
+    color: #38b000;
+    margin-top: 0;
+}
+
+section p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* INFORMACIÓN ADICIONAL */
+aside {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+aside h3 {
+    color: #38b000;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+
+
+
